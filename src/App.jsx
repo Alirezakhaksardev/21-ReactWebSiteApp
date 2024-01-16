@@ -1,4 +1,4 @@
-import {Navbar, Header , Download , Subscribe , Faq , Footer} from './components/index'
+import {Navbar, Header ,Features, Download , Subscribe , Faq , Footer} from './components/index'
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
           <Navbar />
           <Header />
         </header>
-        <Header />
+        <Features />
         <Download />
         <Subscribe />
         <Faq />
